@@ -1,6 +1,6 @@
 // src/App.js
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { AuthProvider } from './contexts/AuthContext';
@@ -26,7 +26,6 @@ function App() {
             <Route path="/" element={<Navigate to="/login" />} />
           </Routes>
 
-          {/* Toast Container for Notifications */}
           <ToastContainer
             position="top-right"
             autoClose={3000}

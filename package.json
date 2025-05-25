@@ -1,7 +1,7 @@
 {
   "name": "peerconnect1",
   "version": "0.1.0",
-  "homepage": "https://Gyanprakash136.github.io/-PeerConnect-Student-Networking",
+  "homepage": "https://Gyanprakash136.github.io/-PeerConnect-Student-Networking/#",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
