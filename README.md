@@ -1,70 +1,119 @@
-# Getting Started with Create React App
+# 🌟 PeerConnect - Student Networking & Collaboration Platform
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center">
 
-## Available Scripts
+![PeerConnect Logo](https://img.shields.io/badge/PeerConnect-Student%20Networking-blue?style=for-the-badge&logo=react)
 
-In the project directory, you can run:
+**Empowering students to connect, collaborate, and compete through innovative technology**
 
-### `npm start`
+[![React](https://img.shields.io/badge/React-19.1.0-61DAFB?style=flat&logo=react)](https://reactjs.org/)
+[![Firebase](https://img.shields.io/badge/Firebase-11.8.1-FFCA28?style=flat&logo=firebase)](https://firebase.google.com/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.4.17-38B2AC?style=flat&logo=tailwind-css)](https://tailwindcss.com/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+[🌐 Live Demo](https://Gyanprakash136.github.io/-PeerConnect-Student-Networking/#/) | [📹 Video Demo](#demo-video) | [📊 Features](#features) | [🚀 Quick Start](#quick-start)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+</div>
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🎯 **Project Overview**
 
-### `npm run build`
+PeerConnect is a **comprehensive student networking platform** that revolutionizes how students discover peers, form teams, and participate in hackathons. Built with modern web technologies, it bridges the gap between academic isolation and collaborative innovation.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 🏆 **Why PeerConnect Stands Out**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **🔥 Real-world Integration** - Live hackathon data with actual registration links
+- **🎨 Modern UI/UX** - Professional dark theme with video backgrounds and animations
+- **⚡ Performance Optimized** - Built with React 19 and optimized for speed
+- **📱 Mobile First** - Responsive design that works seamlessly across all devices
+- **🔐 Enterprise Security** - Firebase Authentication with Google OAuth integration
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## ✨ **Features**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 🔐 **Authentication & Security**
+- **Multi-provider Authentication** - Email/Password and Google OAuth
+- **Secure User Management** - Firebase-powered user sessions
+- **Profile Protection** - Route guards and data validation
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 👥 **Student Discovery Engine**
+- **Smart Profiles** - 10+ diverse Indian student profiles with realistic data
+- **Advanced Filtering** - Search by department, year, skills, and interests
+- **Real-time Status** - Online/offline indicators and activity tracking
+- **Connection Management** - Send requests, manage network, and track collaborations
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 🏆 **Hackathon Discovery Hub**
+- **Live Event Data** - Real hackathons including HackIndia 2025, Ethereum Hackathon
+- **Instant Registration** - Direct links to official registration pages
+- **Smart Filtering** - Filter by skills, difficulty, and registration status
+- **Event Management** - Bookmark events, set reminders, and share opportunities
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### 🤝 **Team Formation System**
+- **Dynamic Team Creation** - Form teams for specific hackathons and projects
+- **Role-based Recruitment** - Specify required skills and team positions
+- **Multi-channel Invitations** - Email invites and shareable team links
+- **Collaboration Workspace** - Team chat and project coordination tools
 
-## Learn More
+### 💬 **Real-time Communication**
+- **Professional Chat Interface** - WhatsApp-like messaging experience
+- **Team Channels** - Dedicated spaces for team communication
+- **File Sharing** - Share documents, images, and project files
+- **Video Call Integration** - Built-in support for video conferences
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### 📊 **Enhanced Dashboard**
+- **Dynamic Video Background** - Engaging visuals with animated fallbacks
+- **Comprehensive Analytics** - Network size, collaborations, and activity metrics
+- **Quick Actions** - One-click access to common tasks
+- **Personalized Experience** - Customized content based on user preferences
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## 🛠️ **Technology Stack**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<table>
+<tr>
+<td valign="top" width="33%">
 
-### Analyzing the Bundle Size
+### Frontend
+- **React 19.1.0** - Latest React with concurrent features
+- **Tailwind CSS 3.4.17** - Utility-first styling
+- **Framer Motion 12.12.2** - Smooth animations
+- **Lucide React 0.511.0** - Beautiful icons
+- **React Router 7.6.0** - Client-side routing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+</td>
+<td valign="top" width="33%">
 
-### Making a Progressive Web App
+### Backend & Database
+- **Firebase Auth 11.8.1** - User authentication
+- **Firestore** - Real-time NoSQL database
+- **Cloud Functions** - Serverless backend logic
+- **Firebase Storage** - File storage and CDN
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+</td>
+<td valign="top" width="33%">
 
-### Advanced Configuration
+### Development & Deployment
+- **React Scripts 5.0.1** - Build tooling
+- **GitHub Pages** - Static site hosting
+- **ESLint & Prettier** - Code quality
+- **Git & GitHub** - Version control
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+</td>
+</tr>
+</table>
 
-### Deployment
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 🚀 **Quick Start**
 
-### `npm run build` fails to minify
+### Prerequisites
+- **Node.js** (v16 or higher)
+- **npm** or **yarn**
+- **Git**
+- **Firebase account**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Installation
+
