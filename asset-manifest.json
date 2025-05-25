@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/-PeerConnect-Student-Networking/static/css/main.70ac0316.css",
+    "main.js": "/-PeerConnect-Student-Networking/static/js/main.2f4b977c.js",
+    "static/js/453.5f1d3005.chunk.js": "/-PeerConnect-Student-Networking/static/js/453.5f1d3005.chunk.js",
+    "index.html": "/-PeerConnect-Student-Networking/index.html",
+    "main.70ac0316.css.map": "/-PeerConnect-Student-Networking/static/css/main.70ac0316.css.map",
+    "main.2f4b977c.js.map": "/-PeerConnect-Student-Networking/static/js/main.2f4b977c.js.map",
+    "453.5f1d3005.chunk.js.map": "/-PeerConnect-Student-Networking/static/js/453.5f1d3005.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.70ac0316.css",
+    "static/js/main.2f4b977c.js"
+  ]
+}
