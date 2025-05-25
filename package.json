@@ -1,6 +1,7 @@
 {
   "name": "peerconnect1",
   "version": "0.1.0",
+  "homepage": "https://Gyanprakash136.github.io/-PeerConnect-Student-Networking",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
@@ -21,7 +22,9 @@
     "start": "react-scripts --openssl-legacy-provider start",
     "build": "react-scripts --openssl-legacy-provider build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -46,6 +49,7 @@
     "@types/react-dom": "^19.1.5",
     "autoprefixer": "^10.4.21",
     "postcss": "^8.5.3",
-    "tailwindcss": "^3.4.17"
+    "tailwindcss": "^3.4.17",
+    "gh-pages": "^6.1.1"
   }
 }
