@@ -15,10 +15,8 @@ It’s built with **React, TailwindCSS, Framer Motion, and Firebase** to provide
   - [Installation](#installation)
   - [Firebase Setup](#firebase-setup)
 - [📂 Project Structure](#-project-structure)
-- [📸 Demo](#-demo)
 - [🧑‍💻 Contribution](#-contribution)
 - [✅ Future Improvements](#-future-improvements)
-- [📝 License](#-license)
 
 ---
 
