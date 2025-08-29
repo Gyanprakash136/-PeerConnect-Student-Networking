@@ -35,7 +35,7 @@ It’s built with **React, TailwindCSS, Framer Motion, and Firebase** to provide
 ## 🛠 Tech Stack
 - **Frontend**: React 19, TailwindCSS, Framer Motion  
 - **Backend**: Firebase (Auth, Firestore, Cloud Functions, Storage)  
-- **Deployment**: GitHub Pages / Firebase Hosting  
+- **Deployment**: GitHub Pages
 
 ---
 
