@@ -1,19 +1,34 @@
-# PeerConnect – Student Networking & Collaboration Platform
+# 🚀 PeerConnect – Student Networking & Collaboration Platform
 
 PeerConnect is a web platform that helps students **discover peers, form teams, and collaborate on hackathons or projects**.  
-It’s built with **React, TailwindCSS, Framer Motion, and Firebase** to provide real-time chat, team formation, and networking features.
+It’s built with **React, TailwindCSS, Framer Motion, and Firebase** to provide **real-time chat, team formation, and networking features**.
 
-![PeerConnect Demo](demo.gif) <!-- replace with your GIF or screenshot -->
+![PeerConnect Demo](demo.gif) <!-- Replace with your GIF or screenshot -->
+
+---
+
+## 📖 Table of Contents
+- [✨ Features](#-features)
+- [🛠 Tech Stack](#-tech-stack)
+- [🚀 Getting Started](#-getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Firebase Setup](#firebase-setup)
+- [📂 Project Structure](#-project-structure)
+- [📸 Demo](#-demo)
+- [🧑‍💻 Contribution](#-contribution)
+- [✅ Future Improvements](#-future-improvements)
+- [📝 License](#-license)
 
 ---
 
 ## ✨ Features
-- 🔑 Secure **authentication** with Firebase
-- 🧑‍🤝‍🧑 **User discovery** – find peers with similar interests
-- 💬 **Real-time chat** with Firestore
-- 👥 **Team formation** for hackathons & projects
-- 🎨 Smooth, responsive **UI with animations** (Tailwind + Framer Motion)
-- ☁️ **Firebase backend** – Firestore, Auth, Storage, Cloud Functions
+- 🔑 Secure **authentication** with Firebase  
+- 🧑‍🤝‍🧑 **User discovery** – find peers with similar interests  
+- 💬 **Real-time chat** with Firestore  
+- 👥 **Team formation** for hackathons & projects  
+- 🎨 Smooth, responsive **UI with animations** (Tailwind + Framer Motion)  
+- ☁️ **Firebase backend** – Firestore, Auth, Storage, Cloud Functions  
 
 ---
 
@@ -27,8 +42,8 @@ It’s built with **React, TailwindCSS, Framer Motion, and Firebase** to provide
 ## 🚀 Getting Started
 
 ### Prerequisites
-- Node.js (>=18)
-- Firebase project (with Firestore + Auth enabled)
+- Node.js (>=18)  
+- A Firebase project with Firestore + Auth enabled  
 
 ### Installation
 ```bash
@@ -42,13 +57,13 @@ npm install
 # Start the dev server
 npm run dev
 Firebase Setup
-Create a Firebase project in the Firebase console.
+Create a Firebase project in the Firebase Console.
 
 Enable Authentication (Email/Google), Firestore, and Storage.
 
 Add your Firebase config to /src/firebase.js.
 
-🧩 Project Structure
+📂 Project Structure
 bash
 Copy code
 /src
@@ -57,35 +72,23 @@ Copy code
   /utils        -> Helpers & Firebase config
   App.js
   index.js
-📸 Demo
-Live demo: [Add deployed link here]
 
-Video demo: [Add video link here]
 
-🧑‍💻 My Contribution
-This was primarily built by Gyan Prakash.
-I implemented:
 
-React frontend with Tailwind + Framer Motion animations
+🧑‍💻 Contribution
+This project was primarily built by Gyan Prakash.
+Key contributions include:
 
-Firebase authentication and Firestore integration
+⚛️ React frontend with Tailwind + Framer Motion animations
 
-Real-time chat and team formation logic
+🔑 Firebase authentication & Firestore integration
 
-Deployment setup
+💬 Real-time chat & team formation logic
+
 
 ✅ Future Improvements
-Add video calls / screen sharing
+🎥 Add video calls / screen sharing
 
-Smarter peer matching (recommendation system)
+🤖 Smarter peer matching (recommendation system)
 
-Mobile-first PWA version
-
-📝 License
-MIT License – see LICENSE.
-
-yaml
-Copy code
-
----
-
+📱 Mobile-first PWA version
